@@ -1,0 +1,300 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\vuluYonetimSistemi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41D4887D-1FDA-8FBA-28B4-BB52CA22FCEC}|..\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj|d:\\vulu-yonetimsistemi-api\\controllers\\faturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D4887D-1FDA-8FBA-28B4-BB52CA22FCEC}|..\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj|d:\\vulu-yonetimsistemi-api\\controllers\\randevucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D4887D-1FDA-8FBA-28B4-BB52CA22FCEC}|..\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj|d:\\vulu-yonetimsistemi-api\\controllers\\serviskaydicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D4887D-1FDA-8FBA-28B4-BB52CA22FCEC}|..\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj|d:\\vulu-yonetimsistemi-api\\controllers\\teknisyencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D4887D-1FDA-8FBA-28B4-BB52CA22FCEC}|..\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj|d:\\vulu-yonetimsistemi-api\\controllers\\mustericontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D4887D-1FDA-8FBA-28B4-BB52CA22FCEC}|..\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj|d:\\vulu-yonetimsistemi-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D4887D-1FDA-8FBA-28B4-BB52CA22FCEC}|..\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj|d:\\vulu-yonetimsistemi-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D4887D-1FDA-8FBA-28B4-BB52CA22FCEC}|..\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj|d:\\vulu-yonetimsistemi-api\\controllers\\kullanicicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D4887D-1FDA-8FBA-28B4-BB52CA22FCEC}|..\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj|d:\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\vulu-yonetimsistemi-api\\Migrations\\20260925221633_IlkKurulum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2419773D-0C89-46E2-84A6-8C61E61889A9}|vuluYonetimSistemi.csproj|D:\\vuluYonetimSistemi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2419773D-0C89-46E2-84A6-8C61E61889A9}|vuluYonetimSistemi.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D4887D-1FDA-8FBA-28B4-BB52CA22FCEC}|..\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj|d:\\vulu-yonetimsistemi-api\\data\\veritabanibaglami.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D4887D-1FDA-8FBA-28B4-BB52CA22FCEC}|..\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj|d:\\vulu-yonetimsistemi-api\\models\\fatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D4887D-1FDA-8FBA-28B4-BB52CA22FCEC}|..\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj|d:\\vulu-yonetimsistemi-api\\models\\randevu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D4887D-1FDA-8FBA-28B4-BB52CA22FCEC}|..\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj|d:\\vulu-yonetimsistemi-api\\models\\serviskaydi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D4887D-1FDA-8FBA-28B4-BB52CA22FCEC}|..\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj|d:\\vulu-yonetimsistemi-api\\models\\teknisyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D4887D-1FDA-8FBA-28B4-BB52CA22FCEC}|..\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj|d:\\vulu-yonetimsistemi-api\\models\\musteri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D4887D-1FDA-8FBA-28B4-BB52CA22FCEC}|..\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj|d:\\vulu-yonetimsistemi-api\\models\\kullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FaturaController.cs",
+              "DocumentMoniker": "D:\\vulu-yonetimsistemi-api\\Controllers\\FaturaController.cs",
+              "RelativeDocumentMoniker": "..\\vulu-yonetimsistemi-api\\Controllers\\FaturaController.cs",
+              "ToolTip": "D:\\vulu-yonetimsistemi-api\\Controllers\\FaturaController.cs",
+              "RelativeToolTip": "..\\vulu-yonetimsistemi-api\\Controllers\\FaturaController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T22:37:55.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RandevuController.cs",
+              "DocumentMoniker": "D:\\vulu-yonetimsistemi-api\\Controllers\\RandevuController.cs",
+              "RelativeDocumentMoniker": "..\\vulu-yonetimsistemi-api\\Controllers\\RandevuController.cs",
+              "ToolTip": "D:\\vulu-yonetimsistemi-api\\Controllers\\RandevuController.cs",
+              "RelativeToolTip": "..\\vulu-yonetimsistemi-api\\Controllers\\RandevuController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAswFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T22:37:38.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServisKaydiController.cs",
+              "DocumentMoniker": "D:\\vulu-yonetimsistemi-api\\Controllers\\ServisKaydiController.cs",
+              "RelativeDocumentMoniker": "..\\vulu-yonetimsistemi-api\\Controllers\\ServisKaydiController.cs",
+              "ToolTip": "D:\\vulu-yonetimsistemi-api\\Controllers\\ServisKaydiController.cs",
+              "RelativeToolTip": "..\\vulu-yonetimsistemi-api\\Controllers\\ServisKaydiController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T22:37:18.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TeknisyenController.cs",
+              "DocumentMoniker": "D:\\vulu-yonetimsistemi-api\\Controllers\\TeknisyenController.cs",
+              "RelativeDocumentMoniker": "..\\vulu-yonetimsistemi-api\\Controllers\\TeknisyenController.cs",
+              "ToolTip": "D:\\vulu-yonetimsistemi-api\\Controllers\\TeknisyenController.cs",
+              "RelativeToolTip": "..\\vulu-yonetimsistemi-api\\Controllers\\TeknisyenController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T22:36:48.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MusteriController.cs",
+              "DocumentMoniker": "D:\\vulu-yonetimsistemi-api\\Controllers\\MusteriController.cs",
+              "RelativeDocumentMoniker": "..\\vulu-yonetimsistemi-api\\Controllers\\MusteriController.cs",
+              "ToolTip": "D:\\vulu-yonetimsistemi-api\\Controllers\\MusteriController.cs",
+              "RelativeToolTip": "..\\vulu-yonetimsistemi-api\\Controllers\\MusteriController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAswEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T22:32:31.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "vulu-yonetimsistemi-api.http",
+              "DocumentMoniker": "D:\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.http",
+              "RelativeDocumentMoniker": "..\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.http",
+              "ToolTip": "D:\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.http",
+              "RelativeToolTip": "..\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-09-25T22:22:38.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260925221633_IlkKurulum.cs",
+              "DocumentMoniker": "D:\\vulu-yonetimsistemi-api\\Migrations\\20260925221633_IlkKurulum.cs",
+              "RelativeDocumentMoniker": "..\\vulu-yonetimsistemi-api\\Migrations\\20260925221633_IlkKurulum.cs",
+              "ToolTip": "D:\\vulu-yonetimsistemi-api\\Migrations\\20260925221633_IlkKurulum.cs",
+              "RelativeToolTip": "..\\vulu-yonetimsistemi-api\\Migrations\\20260925221633_IlkKurulum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T22:16:33.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VeriTabaniBaglami.cs",
+              "DocumentMoniker": "D:\\vulu-yonetimsistemi-api\\Data\\VeriTabaniBaglami.cs",
+              "RelativeDocumentMoniker": "..\\vulu-yonetimsistemi-api\\Data\\VeriTabaniBaglami.cs",
+              "ToolTip": "D:\\vulu-yonetimsistemi-api\\Data\\VeriTabaniBaglami.cs",
+              "RelativeToolTip": "..\\vulu-yonetimsistemi-api\\Data\\VeriTabaniBaglami.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA7wBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T22:09:35.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Fatura.cs",
+              "DocumentMoniker": "D:\\vulu-yonetimsistemi-api\\Models\\Fatura.cs",
+              "RelativeDocumentMoniker": "..\\vulu-yonetimsistemi-api\\Models\\Fatura.cs",
+              "ToolTip": "D:\\vulu-yonetimsistemi-api\\Models\\Fatura.cs",
+              "RelativeToolTip": "..\\vulu-yonetimsistemi-api\\Models\\Fatura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T22:06:44.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Randevu.cs",
+              "DocumentMoniker": "D:\\vulu-yonetimsistemi-api\\Models\\Randevu.cs",
+              "RelativeDocumentMoniker": "..\\vulu-yonetimsistemi-api\\Models\\Randevu.cs",
+              "ToolTip": "D:\\vulu-yonetimsistemi-api\\Models\\Randevu.cs",
+              "RelativeToolTip": "..\\vulu-yonetimsistemi-api\\Models\\Randevu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T22:06:15.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ServisKaydi.cs",
+              "DocumentMoniker": "D:\\vulu-yonetimsistemi-api\\Models\\ServisKaydi.cs",
+              "RelativeDocumentMoniker": "..\\vulu-yonetimsistemi-api\\Models\\ServisKaydi.cs",
+              "ToolTip": "D:\\vulu-yonetimsistemi-api\\Models\\ServisKaydi.cs",
+              "RelativeToolTip": "..\\vulu-yonetimsistemi-api\\Models\\ServisKaydi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T22:05:58.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Teknisyen.cs",
+              "DocumentMoniker": "D:\\vulu-yonetimsistemi-api\\Models\\Teknisyen.cs",
+              "RelativeDocumentMoniker": "..\\vulu-yonetimsistemi-api\\Models\\Teknisyen.cs",
+              "ToolTip": "D:\\vulu-yonetimsistemi-api\\Models\\Teknisyen.cs",
+              "RelativeToolTip": "..\\vulu-yonetimsistemi-api\\Models\\Teknisyen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T22:05:39.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\vulu-yonetimsistemi-api\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\vulu-yonetimsistemi-api\\appsettings.json",
+              "ToolTip": "D:\\vulu-yonetimsistemi-api\\appsettings.json",
+              "RelativeToolTip": "..\\vulu-yonetimsistemi-api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-25T22:02:18.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\vulu-yonetimsistemi-api\\Program.cs",
+              "RelativeDocumentMoniker": "..\\vulu-yonetimsistemi-api\\Program.cs",
+              "ToolTip": "D:\\vulu-yonetimsistemi-api\\Program.cs",
+              "RelativeToolTip": "..\\vulu-yonetimsistemi-api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T22:11:05.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "KullaniciController.cs",
+              "DocumentMoniker": "D:\\vulu-yonetimsistemi-api\\Controllers\\KullaniciController.cs",
+              "RelativeDocumentMoniker": "..\\vulu-yonetimsistemi-api\\Controllers\\KullaniciController.cs",
+              "ToolTip": "D:\\vulu-yonetimsistemi-api\\Controllers\\KullaniciController.cs",
+              "RelativeToolTip": "..\\vulu-yonetimsistemi-api\\Controllers\\KullaniciController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwAwAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T22:23:27.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Musteri.cs",
+              "DocumentMoniker": "D:\\vulu-yonetimsistemi-api\\Models\\Musteri.cs",
+              "RelativeDocumentMoniker": "..\\vulu-yonetimsistemi-api\\Models\\Musteri.cs",
+              "ToolTip": "D:\\vulu-yonetimsistemi-api\\Models\\Musteri.cs",
+              "RelativeToolTip": "..\\vulu-yonetimsistemi-api\\Models\\Musteri.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T22:05:16.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Kullanici.cs",
+              "DocumentMoniker": "D:\\vulu-yonetimsistemi-api\\Models\\Kullanici.cs",
+              "RelativeDocumentMoniker": "..\\vulu-yonetimsistemi-api\\Models\\Kullanici.cs",
+              "ToolTip": "D:\\vulu-yonetimsistemi-api\\Models\\Kullanici.cs",
+              "RelativeToolTip": "..\\vulu-yonetimsistemi-api\\Models\\Kullanici.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T22:04:37.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\vuluYonetimSistemi\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\vuluYonetimSistemi\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T21:49:29.269Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

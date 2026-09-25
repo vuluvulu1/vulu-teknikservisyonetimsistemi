@@ -1,0 +1,17 @@
+D:\vuluYonetimSistemi\bin\Debug\net10.0-windows\vuluYonetimSistemi.exe
+D:\vuluYonetimSistemi\bin\Debug\net10.0-windows\vuluYonetimSistemi.deps.json
+D:\vuluYonetimSistemi\bin\Debug\net10.0-windows\vuluYonetimSistemi.runtimeconfig.json
+D:\vuluYonetimSistemi\bin\Debug\net10.0-windows\vuluYonetimSistemi.dll
+D:\vuluYonetimSistemi\bin\Debug\net10.0-windows\vuluYonetimSistemi.pdb
+D:\vuluYonetimSistemi\obj\Debug\net10.0-windows\vuluYonetimSistemi.Form1.resources
+D:\vuluYonetimSistemi\obj\Debug\net10.0-windows\vuluYonetimSistemi.csproj.GenerateResource.cache
+D:\vuluYonetimSistemi\obj\Debug\net10.0-windows\vuluYonetimSistemi.GeneratedMSBuildEditorConfig.editorconfig
+D:\vuluYonetimSistemi\obj\Debug\net10.0-windows\vuluYonetimSistemi.AssemblyInfoInputs.cache
+D:\vuluYonetimSistemi\obj\Debug\net10.0-windows\vuluYonetimSistemi.AssemblyInfo.cs
+D:\vuluYonetimSistemi\obj\Debug\net10.0-windows\vuluYonetimSistemi.csproj.CoreCompileInputs.cache
+D:\vuluYonetimSistemi\obj\Debug\net10.0-windows\vuluYonetimSistemi.dll
+D:\vuluYonetimSistemi\obj\Debug\net10.0-windows\refint\vuluYonetimSistemi.dll
+D:\vuluYonetimSistemi\obj\Debug\net10.0-windows\vuluYonetimSistemi.pdb
+D:\vuluYonetimSistemi\obj\Debug\net10.0-windows\vuluYonetimSistemi.genruntimeconfig.cache
+D:\vuluYonetimSistemi\obj\Debug\net10.0-windows\ref\vuluYonetimSistemi.dll
+D:\vuluYonetimSistemi\obj\Debug\net10.0-windows\vuluYone.EEF7638F.Up2Date

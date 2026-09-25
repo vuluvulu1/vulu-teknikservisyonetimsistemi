@@ -1,0 +1,429 @@
+[
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.FaturaController",
+    "Method": "Listele",
+    "RelativePath": "api/Fatura",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.FaturaController",
+    "Method": "Ekle",
+    "RelativePath": "api/Fatura",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "istek",
+        "Type": "vulu_yonetimsistemi_api.Controllers.FaturaIstek",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.FaturaController",
+    "Method": "Getir",
+    "RelativePath": "api/Fatura/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.FaturaController",
+    "Method": "Guncelle",
+    "RelativePath": "api/Fatura/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "istek",
+        "Type": "vulu_yonetimsistemi_api.Controllers.FaturaIstek",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.FaturaController",
+    "Method": "Sil",
+    "RelativePath": "api/Fatura/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.KullaniciController",
+    "Method": "Giris",
+    "RelativePath": "api/Kullanici/giris",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "istek",
+        "Type": "vulu_yonetimsistemi_api.Controllers.GirisIstegi",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.KullaniciController",
+    "Method": "KullaniciOlustur",
+    "RelativePath": "api/Kullanici/olustur",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "istek",
+        "Type": "vulu_yonetimsistemi_api.Controllers.KullaniciOlusturIstegi",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.MusteriController",
+    "Method": "Listele",
+    "RelativePath": "api/Musteri",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.MusteriController",
+    "Method": "Ekle",
+    "RelativePath": "api/Musteri",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "musteri",
+        "Type": "vulu_yonetimsistemi_api.Models.Musteri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.MusteriController",
+    "Method": "Getir",
+    "RelativePath": "api/Musteri/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.MusteriController",
+    "Method": "Guncelle",
+    "RelativePath": "api/Musteri/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "musteri",
+        "Type": "vulu_yonetimsistemi_api.Models.Musteri",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.MusteriController",
+    "Method": "Sil",
+    "RelativePath": "api/Musteri/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.RandevuController",
+    "Method": "Listele",
+    "RelativePath": "api/Randevu",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.RandevuController",
+    "Method": "Ekle",
+    "RelativePath": "api/Randevu",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "istek",
+        "Type": "vulu_yonetimsistemi_api.Controllers.RandevuIstek",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.RandevuController",
+    "Method": "Getir",
+    "RelativePath": "api/Randevu/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.RandevuController",
+    "Method": "Guncelle",
+    "RelativePath": "api/Randevu/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "istek",
+        "Type": "vulu_yonetimsistemi_api.Controllers.RandevuIstek",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.RandevuController",
+    "Method": "Sil",
+    "RelativePath": "api/Randevu/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.ServisKaydiController",
+    "Method": "Listele",
+    "RelativePath": "api/ServisKaydi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.ServisKaydiController",
+    "Method": "Ekle",
+    "RelativePath": "api/ServisKaydi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "istek",
+        "Type": "vulu_yonetimsistemi_api.Controllers.ServisKaydiIstek",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.ServisKaydiController",
+    "Method": "Getir",
+    "RelativePath": "api/ServisKaydi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.ServisKaydiController",
+    "Method": "Guncelle",
+    "RelativePath": "api/ServisKaydi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "istek",
+        "Type": "vulu_yonetimsistemi_api.Controllers.ServisKaydiIstek",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.ServisKaydiController",
+    "Method": "Sil",
+    "RelativePath": "api/ServisKaydi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.TeknisyenController",
+    "Method": "Listele",
+    "RelativePath": "api/Teknisyen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.TeknisyenController",
+    "Method": "Ekle",
+    "RelativePath": "api/Teknisyen",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teknisyen",
+        "Type": "vulu_yonetimsistemi_api.Models.Teknisyen",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.TeknisyenController",
+    "Method": "Getir",
+    "RelativePath": "api/Teknisyen/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.TeknisyenController",
+    "Method": "Guncelle",
+    "RelativePath": "api/Teknisyen/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "teknisyen",
+        "Type": "vulu_yonetimsistemi_api.Models.Teknisyen",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.TeknisyenController",
+    "Method": "Sil",
+    "RelativePath": "api/Teknisyen/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

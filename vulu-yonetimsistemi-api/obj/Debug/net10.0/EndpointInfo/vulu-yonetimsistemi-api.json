@@ -1,0 +1,1192 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "vulu-yonetimsistemi-api | v1",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://localhost:7053"
+    },
+    {
+      "url": "http://localhost:5168"
+    }
+  ],
+  "paths": {
+    "/api/Fatura": {
+      "get": {
+        "tags": [
+          "Fatura"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Fatura"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FaturaIstek"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FaturaIstek"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/FaturaIstek"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Fatura/{id}": {
+      "get": {
+        "tags": [
+          "Fatura"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Fatura"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FaturaIstek"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FaturaIstek"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/FaturaIstek"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Fatura"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Kullanici/giris": {
+      "post": {
+        "tags": [
+          "Kullanici"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GirisIstegi"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GirisIstegi"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GirisIstegi"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Kullanici/olustur": {
+      "post": {
+        "tags": [
+          "Kullanici"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KullaniciOlusturIstegi"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KullaniciOlusturIstegi"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/KullaniciOlusturIstegi"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Musteri": {
+      "get": {
+        "tags": [
+          "Musteri"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Musteri"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Musteri"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Musteri"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Musteri"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Musteri/{id}": {
+      "get": {
+        "tags": [
+          "Musteri"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Musteri"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Musteri"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Musteri"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Musteri"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Musteri"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Randevu": {
+      "get": {
+        "tags": [
+          "Randevu"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Randevu"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RandevuIstek"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RandevuIstek"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RandevuIstek"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Randevu/{id}": {
+      "get": {
+        "tags": [
+          "Randevu"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Randevu"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RandevuIstek"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RandevuIstek"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RandevuIstek"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Randevu"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ServisKaydi": {
+      "get": {
+        "tags": [
+          "ServisKaydi"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ServisKaydi"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ServisKaydiIstek"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ServisKaydiIstek"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ServisKaydiIstek"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ServisKaydi/{id}": {
+      "get": {
+        "tags": [
+          "ServisKaydi"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ServisKaydi"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ServisKaydiIstek"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ServisKaydiIstek"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ServisKaydiIstek"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ServisKaydi"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Teknisyen": {
+      "get": {
+        "tags": [
+          "Teknisyen"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Teknisyen"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Teknisyen"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Teknisyen"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Teknisyen"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Teknisyen/{id}": {
+      "get": {
+        "tags": [
+          "Teknisyen"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Teknisyen"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Teknisyen"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Teknisyen"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Teknisyen"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Teknisyen"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Fatura": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "servisKaydiId": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "servisKaydi": {
+            "$ref": "#/components/schemas/ServisKaydi"
+          },
+          "tutar": {
+            "pattern": "^-?(?:0|[1-9]\\d*)(?:\\.\\d+)?$",
+            "type": [
+              "number",
+              "string"
+            ],
+            "format": "double"
+          },
+          "odendiMi": {
+            "type": "boolean"
+          },
+          "olusturmaTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "odemeTarihi": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          }
+        }
+      },
+      "FaturaIstek": {
+        "required": [
+          "servisKaydiId",
+          "tutar",
+          "odendiMi"
+        ],
+        "type": "object",
+        "properties": {
+          "servisKaydiId": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "tutar": {
+            "pattern": "^-?(?:0|[1-9]\\d*)(?:\\.\\d+)?$",
+            "type": [
+              "number",
+              "string"
+            ],
+            "format": "double"
+          },
+          "odendiMi": {
+            "type": "boolean"
+          }
+        }
+      },
+      "GirisIstegi": {
+        "required": [
+          "kullaniciAdi",
+          "sifre"
+        ],
+        "type": "object",
+        "properties": {
+          "kullaniciAdi": {
+            "type": "string"
+          },
+          "sifre": {
+            "type": "string"
+          }
+        }
+      },
+      "Kullanici": { },
+      "KullaniciOlusturIstegi": {
+        "required": [
+          "kullaniciAdi",
+          "sifre",
+          "rol",
+          "adminKey"
+        ],
+        "type": "object",
+        "properties": {
+          "kullaniciAdi": {
+            "type": "string"
+          },
+          "sifre": {
+            "type": "string"
+          },
+          "rol": {
+            "$ref": "#/components/schemas/KullaniciRol"
+          },
+          "adminKey": {
+            "type": "string"
+          }
+        }
+      },
+      "KullaniciRol": {
+        "type": "integer"
+      },
+      "Musteri": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "adSoyad": {
+            "type": "string"
+          },
+          "telefon": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "email": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "adres": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "olusturmaTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "servisKayitlari": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ServisKaydi"
+            }
+          },
+          "randevular": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Randevu"
+            }
+          }
+        }
+      },
+      "Randevu": { },
+      "RandevuDurumu": {
+        "type": "integer"
+      },
+      "RandevuIstek": {
+        "required": [
+          "musteriId",
+          "teknisyenId",
+          "servisKaydiId",
+          "randevuTarihi",
+          "aciklama",
+          "durum"
+        ],
+        "type": "object",
+        "properties": {
+          "musteriId": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "teknisyenId": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "null",
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "servisKaydiId": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "null",
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "randevuTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "aciklama": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "durum": {
+            "$ref": "#/components/schemas/RandevuDurumu"
+          }
+        }
+      },
+      "ServisDurumu": {
+        "type": "integer"
+      },
+      "ServisKaydi": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "musteriId": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "musteri": {
+            "$ref": "#/components/schemas/Musteri"
+          },
+          "teknisyenId": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "null",
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "teknisyen": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/Teknisyen"
+              }
+            ]
+          },
+          "cihazBilgisi": {
+            "type": "string"
+          },
+          "sorun": {
+            "type": "string"
+          },
+          "durum": {
+            "$ref": "#/components/schemas/ServisDurumu"
+          },
+          "olusturmaTarihi": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "tamamlanmaTarihi": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          },
+          "fatura": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/Fatura"
+              }
+            ]
+          },
+          "randevular": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Randevu"
+            }
+          }
+        }
+      },
+      "ServisKaydiIstek": {
+        "required": [
+          "musteriId",
+          "teknisyenId",
+          "cihazBilgisi",
+          "sorun",
+          "durum"
+        ],
+        "type": "object",
+        "properties": {
+          "musteriId": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "teknisyenId": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "null",
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "cihazBilgisi": {
+            "type": "string"
+          },
+          "sorun": {
+            "type": "string"
+          },
+          "durum": {
+            "$ref": "#/components/schemas/ServisDurumu"
+          }
+        }
+      },
+      "Teknisyen": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "adSoyad": {
+            "type": "string"
+          },
+          "telefon": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "uzmanlik": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "kullaniciId": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "null",
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "kullanici": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/Kullanici"
+              }
+            ]
+          },
+          "servisKayitlari": { },
+          "randevular": { }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Fatura"
+    },
+    {
+      "name": "Kullanici"
+    },
+    {
+      "name": "Musteri"
+    },
+    {
+      "name": "Randevu"
+    },
+    {
+      "name": "ServisKaydi"
+    },
+    {
+      "name": "Teknisyen"
+    }
+  ]
+}

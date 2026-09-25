@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../vulu-yonetimsistemi-api/vulu-yonetimsistemi-api.csproj" />
+  <Project Path="vuluYonetimSistemi.csproj" />
+</Solution>
