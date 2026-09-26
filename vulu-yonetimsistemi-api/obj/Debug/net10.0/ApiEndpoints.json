@@ -80,6 +80,53 @@
   },
   {
     "ContainingType": "vulu_yonetimsistemi_api.Controllers.KullaniciController",
+    "Method": "Listele",
+    "RelativePath": "api/Kullanici",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.KullaniciController",
+    "Method": "Guncelle",
+    "RelativePath": "api/Kullanici/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "istek",
+        "Type": "vulu_yonetimsistemi_api.Controllers.KullaniciGuncelleIstegi",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.KullaniciController",
+    "Method": "Sil",
+    "RelativePath": "api/Kullanici/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "vulu_yonetimsistemi_api.Controllers.KullaniciController",
     "Method": "Giris",
     "RelativePath": "api/Kullanici/giris",
     "HttpMethod": "POST",

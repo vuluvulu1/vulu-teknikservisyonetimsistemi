@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xRPul1FPFUE=",
+  "dgSpecHash": "0xbWcTw691U=",
   "success": true,
-  "projectFilePath": "D:\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj",
+  "projectFilePath": "D:\\vulu-teknikservisyonetimsistemi\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ardak\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\Ardak\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vulu-yonetimsistemi-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+932c6f0d6316d72a3a25607c03fd413c75b8306d")]
 [assembly: System.Reflection.AssemblyProductAttribute("vulu-yonetimsistemi-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vulu-yonetimsistemi-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vuluYonetimSistemi\\vuluYonetimSistemi.csproj": {}
+    "D:\\vulu-teknikservisyonetimsistemi\\vuluYonetimSistemi\\vuluYonetimSistemi.csproj": {}
   },
   "projects": {
-    "D:\\vuluYonetimSistemi\\vuluYonetimSistemi.csproj": {
+    "D:\\vulu-teknikservisyonetimsistemi\\vuluYonetimSistemi\\vuluYonetimSistemi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vuluYonetimSistemi\\vuluYonetimSistemi.csproj",
+        "projectUniqueName": "D:\\vulu-teknikservisyonetimsistemi\\vuluYonetimSistemi\\vuluYonetimSistemi.csproj",
         "projectName": "vuluYonetimSistemi",
-        "projectPath": "D:\\vuluYonetimSistemi\\vuluYonetimSistemi.csproj",
+        "projectPath": "D:\\vulu-teknikservisyonetimsistemi\\vuluYonetimSistemi\\vuluYonetimSistemi.csproj",
         "packagesPath": "C:\\Users\\Ardak\\.nuget\\packages\\",
-        "outputPath": "D:\\vuluYonetimSistemi\\obj\\",
+        "outputPath": "D:\\vulu-teknikservisyonetimsistemi\\vuluYonetimSistemi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

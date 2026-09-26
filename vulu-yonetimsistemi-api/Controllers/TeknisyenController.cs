@@ -28,6 +28,13 @@ namespace vulu_yonetimsistemi_api.Controllers
         [HttpPost]
         public async Task<IActionResult> Ekle([FromBody] Teknisyen teknisyen)
         {
+            if (teknisyen.KullaniciId is int kid)
+            {
+                var kullaniliyorMu = await _db.Teknisyenler.AnyAsync(t => t.KullaniciId == kid);
+                if (kullaniliyorMu)
+                    return BadRequest(new { hata = "Bu kullanıcı hesabı zaten başka bir teknisyene bağlı." });
+            }
+
             _db.Teknisyenler.Add(teknisyen);
             await _db.SaveChangesAsync();
             return CreatedAtAction(nameof(Getir), new { id = teknisyen.Id }, teknisyen);
@@ -38,6 +45,13 @@ namespace vulu_yonetimsistemi_api.Controllers
         {
             var mevcut = await _db.Teknisyenler.FindAsync(id);
             if (mevcut is null) return NotFound(new { hata = "Teknisyen bulunamadı." });
+
+            if (teknisyen.KullaniciId is int kid)
+            {
+                var kullaniliyorMu = await _db.Teknisyenler.AnyAsync(t => t.KullaniciId == kid && t.Id != id);
+                if (kullaniliyorMu)
+                    return BadRequest(new { hata = "Bu kullanıcı hesabı zaten başka bir teknisyene bağlı." });
+            }
 
             mevcut.AdSoyad = teknisyen.AdSoyad;
             mevcut.Telefon = teknisyen.Telefon;

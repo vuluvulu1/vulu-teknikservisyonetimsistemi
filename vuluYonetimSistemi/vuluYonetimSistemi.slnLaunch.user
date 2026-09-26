@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "start both",
+    "Projects": [
+      {
+        "Path": "..\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "vuluYonetimSistemi.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

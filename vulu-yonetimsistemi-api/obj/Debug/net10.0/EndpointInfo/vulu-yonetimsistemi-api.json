@@ -184,6 +184,18 @@
         }
       }
     },
+    "/api/Kullanici": {
+      "get": {
+        "tags": [
+          "Kullanici"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Kullanici/olustur": {
       "post": {
         "tags": [
@@ -209,6 +221,78 @@
           },
           "required": true
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Kullanici/{id}": {
+      "put": {
+        "tags": [
+          "Kullanici"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KullaniciGuncelleIstegi"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KullaniciGuncelleIstegi"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/KullaniciGuncelleIstegi"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Kullanici"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -866,12 +950,37 @@
         }
       },
       "Kullanici": { },
+      "KullaniciGuncelleIstegi": {
+        "required": [
+          "kullaniciAdi",
+          "rol",
+          "aktifMi",
+          "yeniSifre"
+        ],
+        "type": "object",
+        "properties": {
+          "kullaniciAdi": {
+            "type": "string"
+          },
+          "rol": {
+            "$ref": "#/components/schemas/KullaniciRol"
+          },
+          "aktifMi": {
+            "type": "boolean"
+          },
+          "yeniSifre": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      },
       "KullaniciOlusturIstegi": {
         "required": [
           "kullaniciAdi",
           "sifre",
-          "rol",
-          "adminKey"
+          "rol"
         ],
         "type": "object",
         "properties": {
@@ -883,9 +992,6 @@
           },
           "rol": {
             "$ref": "#/components/schemas/KullaniciRol"
-          },
-          "adminKey": {
-            "type": "string"
           }
         }
       },

@@ -3362,11 +3362,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj",
+      "projectUniqueName": "D:\\vulu-teknikservisyonetimsistemi\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj",
       "projectName": "vulu-yonetimsistemi-api",
-      "projectPath": "D:\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj",
+      "projectPath": "D:\\vulu-teknikservisyonetimsistemi\\vulu-yonetimsistemi-api\\vulu-yonetimsistemi-api.csproj",
       "packagesPath": "C:\\Users\\Ardak\\.nuget\\packages\\",
-      "outputPath": "D:\\vulu-yonetimsistemi-api\\obj\\",
+      "outputPath": "D:\\vulu-teknikservisyonetimsistemi\\vulu-yonetimsistemi-api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
