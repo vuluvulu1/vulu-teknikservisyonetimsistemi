@@ -11,7 +11,8 @@ Müşteri, teknisyen, servis kaydı, randevu ve fatura gibi işlemleri tek bir s
 * Servis kaydı oluşturma ve takip
 * Randevu yönetimi
 * Fatura işlemleri
-* Kullanıcı girişi ve rol sistemi
+* Kullanıcı yönetimi
+* Admin / Teknisyen rolleri
 
 ## Kullanılan Teknolojiler
 
@@ -37,21 +38,21 @@ vulu-yonetimsistemi-api
     └── Migrations
 ```
 
-Client ve API ayrı projeler olarak geliştiriliyor. Veritabanı işlemleri API tarafında tutuluyor.
+Client ve API ayrı projeler olarak geliştiriliyor.
 
 ## Durum
 
-API tarafı büyük ölçüde tamamlandı.
-
 * [x] Kullanıcı girişi
-* [x] JWT authentication
-* [x] Müşteri CRUD
-* [x] Teknisyen CRUD
-* [x] Servis kaydı CRUD
-* [x] Randevu CRUD
-* [x] Fatura CRUD
-* [ ] WinForms arayüzü
+* [x] Kullanıcı yönetimi
+* [x] Müşteri yönetimi
+* [x] Teknisyen yönetimi
+* [x] Servis kaydı API
+* [x] Randevu API
+* [x] Fatura API
+* [ ] Servis kaydı arayüzü
+* [ ] Randevu arayüzü
+* [ ] Fatura arayüzü
 
-Şu anda WinForms tarafına geçiliyor. İlk olarak login ekranı, sonrasında diğer yönetim ekranları geliştirilecek.
+Şu anda WinForms tarafındaki yönetim ekranları geliştiriliyor. Müşteri, teknisyen ve kullanıcı ekranlarının temel listeleme, ekleme, düzenleme ve silme işlemleri çalışıyor.
 
 > Proje geliştirme aşamasındadır.
